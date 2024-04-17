@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <div>
-      <div className="flex justify-between mx-20 gap-x-10 mt-8">
-        <div>
-          <h1 className="text-5xl text-center font-semibold text-indigo-500">
-            Healthy Lifestyle
+      <div className="flex justify-between mx-20 gap-x-10 py-4">
+        <div className='flex justify-center items-center'>
+          <h1 className="text-5xl text-center font-semibold text-teal-500">
+            Your Doctor
           </h1>
         </div>
-        <div>
+        <div className='flex justify-center items-center'>
           <ul className="hidden gap-4  md:flex justify-center">
             <li>
               <Link
