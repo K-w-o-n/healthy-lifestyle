@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import { MdEmail } from "react-icons/md";
+import { FaLock } from "react-icons/fa";
 
 export default function SignIn() {
   return (
@@ -10,7 +12,7 @@ export default function SignIn() {
       </p>
       <div className="mt-8">
         <div>
-          <label className="text-lg font-medium">Email</label>
+          <label className="text-lg font-medium flex items-center gap-2"><MdEmail/>Email</label>
           <input
             type="text"
             placeholder="Enter your email"
@@ -18,7 +20,7 @@ export default function SignIn() {
           />
         </div>
         <div>
-          <label className="text-lg font-medium">Password</label>
+          <label className="text-lg font-medium flex items-center gap-2"><FaLock/>Password</label>
           <input
             type="password"
             placeholder="Enter your password"
