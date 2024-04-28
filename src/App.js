@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import SignIn from "./Components/SignIn.jsx";
 import Register from "./Components/Register.jsx";
 import Navbar from "./Components/Navbar.jsx";
-import p1 from "../../healthy-lifestyle/src/assets/images/hl.jpg";
-import ex from "../../healthy-lifestyle/src/assets/images/ex.jpg";
-import ex1 from "../../healthy-lifestyle/src/assets/images/ex1.png";
+// import p1 from "../../healthy-lifestyle/src/assets/images/hl.jpg";
+// import ex from "../../healthy-lifestyle/src/assets/images/ex.jpg";
+// import ex1 from "../../healthy-lifestyle/src/assets/images/ex1.png";
 
 function App() {
   return (
